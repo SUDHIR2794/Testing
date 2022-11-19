@@ -235,11 +235,11 @@ public class TestingSep22 {
         itinerary.click();
         
         
-        Thread.sleep(4000);
+        Thread.sleep(5000);
         TakesScreenshot ts = (TakesScreenshot)driver;
         File screenshotAs = ts.getScreenshotAs(OutputType.FILE);
         System.out.println(screenshotAs);
-        FileUtils.copyFile(screenshotAs, new File("C:\\Users\\Its We\\Desktop\\Recording\\Testing.jpg"));
+        FileUtils.copyFile(screenshotAs, new File("C:\\Users\\Its We\\Desktop\\Recording\\image.jpg"));
         
 
 			

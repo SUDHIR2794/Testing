@@ -2,33 +2,33 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="191" started-at="2022-09-17T08:37:16Z" finished-at="2022-09-17T08:37:16Z">
+  <suite name="Default suite" duration-ms="101" started-at="2022-11-18T11:00:01Z" finished-at="2022-11-18T11:00:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="191" started-at="2022-09-17T08:37:16Z" finished-at="2022-09-17T08:37:16Z">
+    <test name="Default test" duration-ms="101" started-at="2022-11-18T11:00:01Z" finished-at="2022-11-18T11:00:01Z">
       <class name="org.login.TestingSep22">
-        <test-method status="FAIL" signature="tc8()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc8" is-config="true" duration-ms="73217" started-at="2022-09-17T08:36:02Z" finished-at="2022-09-17T08:37:16Z">
+        <test-method status="FAIL" signature="tc8()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc8" is-config="true" duration-ms="85640" started-at="2022-11-18T10:58:35Z" finished-at="2022-11-18T11:00:01Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#my_itinerary"}
-  (Session info: chrome=105.0.5195.127)
+  (Session info: chrome=107.0.5304.107)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'INSPIRON15', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+System info: host: 'INSPIRON15', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ITSWE~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: be1bbf2f11d68c5051294a41238ce147
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ITSWE~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62921}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70616e7d1e083f3f17dcd4b9b38be0e5
 *** Element info: {Using=id, value=my_itinerary}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#my_itinerary"}
-  (Session info: chrome=105.0.5195.127)
+  (Session info: chrome=107.0.5304.107)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'INSPIRON15', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+System info: host: 'INSPIRON15', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ITSWE~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: be1bbf2f11d68c5051294a41238ce147
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ITSWE~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62921}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70616e7d1e083f3f17dcd4b9b38be0e5
 *** Element info: {Using=id, value=my_itinerary}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -71,40 +71,40 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc8 -->
-        <test-method status="SKIP" signature="tc6()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc6" is-config="true" duration-ms="0" started-at="2022-09-17T08:37:16Z" finished-at="2022-09-17T08:37:16Z">
+        <test-method status="SKIP" signature="tc6()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc6" is-config="true" duration-ms="0" started-at="2022-11-18T11:00:01Z" finished-at="2022-11-18T11:00:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc6 -->
-        <test-method status="SKIP" signature="tc7()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc7" is-config="true" duration-ms="0" started-at="2022-09-17T08:37:16Z" finished-at="2022-09-17T08:37:16Z">
+        <test-method status="SKIP" signature="tc7()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc7" is-config="true" duration-ms="0" started-at="2022-11-18T11:00:01Z" finished-at="2022-11-18T11:00:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc7 -->
-        <test-method status="SKIP" signature="tc5()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc5" is-config="true" duration-ms="0" started-at="2022-09-17T08:37:16Z" finished-at="2022-09-17T08:37:16Z">
+        <test-method status="SKIP" signature="tc5()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc5" is-config="true" duration-ms="0" started-at="2022-11-18T11:00:01Z" finished-at="2022-11-18T11:00:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc5 -->
-        <test-method status="SKIP" signature="tc4()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc4" duration-ms="0" started-at="2022-09-17T08:37:16Z" finished-at="2022-09-17T08:37:16Z">
+        <test-method status="SKIP" signature="tc4()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc4" duration-ms="0" started-at="2022-11-18T11:00:01Z" finished-at="2022-11-18T11:00:01Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#my_itinerary"}
-  (Session info: chrome=105.0.5195.127)
+  (Session info: chrome=107.0.5304.107)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'INSPIRON15', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+System info: host: 'INSPIRON15', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ITSWE~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: be1bbf2f11d68c5051294a41238ce147
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ITSWE~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62921}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70616e7d1e083f3f17dcd4b9b38be0e5
 *** Element info: {Using=id, value=my_itinerary}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#my_itinerary"}
-  (Session info: chrome=105.0.5195.127)
+  (Session info: chrome=107.0.5304.107)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'INSPIRON15', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+System info: host: 'INSPIRON15', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\ITSWE~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: be1bbf2f11d68c5051294a41238ce147
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ITSWE~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62921}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70616e7d1e083f3f17dcd4b9b38be0e5
 *** Element info: {Using=id, value=my_itinerary}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -147,19 +147,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc4 -->
-        <test-method status="SKIP" signature="tc3()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc3" is-config="true" duration-ms="0" started-at="2022-09-17T08:37:16Z" finished-at="2022-09-17T08:37:16Z">
+        <test-method status="SKIP" signature="tc3()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc3" is-config="true" duration-ms="0" started-at="2022-11-18T11:00:01Z" finished-at="2022-11-18T11:00:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc3 -->
-        <test-method status="SKIP" signature="tc2()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc2" is-config="true" duration-ms="0" started-at="2022-09-17T08:37:16Z" finished-at="2022-09-17T08:37:16Z">
+        <test-method status="SKIP" signature="tc2()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc2" is-config="true" duration-ms="0" started-at="2022-11-18T11:00:01Z" finished-at="2022-11-18T11:00:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc2 -->
-        <test-method status="SKIP" signature="tc1()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc1" is-config="true" duration-ms="0" started-at="2022-09-17T08:37:16Z" finished-at="2022-09-17T08:37:16Z">
+        <test-method status="SKIP" signature="tc1()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc1" is-config="true" duration-ms="0" started-at="2022-11-18T11:00:01Z" finished-at="2022-11-18T11:00:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method status="SKIP" signature="tc0()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc0" is-config="true" duration-ms="0" started-at="2022-09-17T08:37:17Z" finished-at="2022-09-17T08:37:17Z">
+        <test-method status="SKIP" signature="tc0()[pri:0, instance:org.login.TestingSep22@1c93084c]" name="tc0" is-config="true" duration-ms="0" started-at="2022-11-18T11:00:02Z" finished-at="2022-11-18T11:00:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc0 -->
